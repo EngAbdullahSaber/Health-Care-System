@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterationActivity"
+    android:background="@color/colorwhite"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bgHeader"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/header_register"
+        android:elevation="5dp" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:elevation="10dp"
+        android:transitionName="tvLogin"
+        android:text="@string/sign_up"
+        android:textColor="@color/colorwhite"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginBottom="-70dp"
+        android:src="@drawable/circle" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- EditText Input name-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/NameTil"
+            android:layout_marginTop="95dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:id="@+id/NameEt"
+                android:padding="15dp"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- EditText Input Email-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EmailTil"
+            android:layout_marginBottom="10dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:id="@+id/EmailEt"
+                android:drawableRight="@drawable/ic_defult_email"
+                android:padding="15dp"
+                android:inputType="textEmailAddress"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- EditText Input Password-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordTil"
+            app:passwordToggleEnabled="true"
+            android:layout_marginBottom="10dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:id="@+id/passeordEt"
+                android:padding="15dp"
+                android:inputType="textPassword"
+                android:layout_marginBottom="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- EditText Input confirm Password-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/conpasswordTil"
+            app:passwordToggleEnabled="true"
+            android:layout_marginBottom="10dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_password"
+                android:id="@+id/conpasseordEt"
+                android:padding="15dp"
+                android:inputType="textPassword"
+                android:layout_marginBottom="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- EditText Input phone-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PhoneTil"
+            android:layout_marginBottom="10dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone"
+                android:id="@+id/PhoneEt"
+                android:padding="15dp"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- EditText Input Licence Number-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinceTil"
+            android:layout_marginBottom="10dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Licence Number"
+                android:id="@+id/LinceEt"
+                android:padding="15dp"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <!-- EditText Input Age-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AgeTil"
+            android:layout_marginBottom="15dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:id="@+id/AgeEt"
+                android:padding="15dp"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <!-- Button  Register-->
+        <Button
+            android:text="@string/register"
+            android:id="@+id/registerBtn"
+            android:textColor="@color/colorwhite"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_ui"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_defult_register"
+            android:paddingLeft="11dp"
+
+            />
+
+
+
+
+
+        <!-- Button  Login-->
+        <TextView
+            android:id="@+id/Have_Account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_account_login"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+</RelativeLayout>

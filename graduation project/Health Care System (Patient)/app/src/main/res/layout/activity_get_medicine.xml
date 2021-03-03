@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abdallah8198.healthcaresystemuser.getMedicineActivity">
+
+    <!-- TextView Label Addmedicine-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Get Medicine"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+    <!-- EditText Input name of medicine-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/medicinenameTil"
+        android:layout_marginTop="120dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name of Medcinie"
+            android:id="@+id/medicinenameEt"
+            android:padding="15dp"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- Button  get-->
+    <Button
+        android:text="Get Medicine"
+        android:id="@+id/addmedBtn"
+        android:layout_below="@id/passwordTil"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorblue"
+        android:textColor="@color/colorWhite"
+        android:layout_width="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingLeft="11dp"
+
+        />
+
+</LinearLayout>

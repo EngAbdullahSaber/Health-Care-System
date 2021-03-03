@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Health Care System(Doctor)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="login" />
+    <string name="person_name">string</string>
+
+    <string name="loginmain">Log In</string>
+    <string name="loginn">Log In</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="patient">Patient</string>
+    <string name="chat">Chat</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_description">enter description</string>
+    <string name="upload">Upload</string>
+    <string name="start_typing">Start Typing</string>
+    <string name="online">online</string>
+    <string name="his_name">His Name</string>
+    <string name="welcome_to_healthcare_apps">Welcome to HealthCare Apps</string>
+
+    <string name="forget_password_recover">Forget Password ? Recover</string>
+    <string name="not_have_account_register">Not have account? Register</string>
+    <string name="enter_comment">Enter Comment ...</string>
+    <string name="comments">Comments</string>
+
+    <string name="sign_up">Sign up</string>
+
+    <string name="password">PassWord</string>
+    <string name="confirm_password">Confirm PassWord</string>
+    <string name="register">Register</string>
+    <string name="already_have_account_login">Already have account? Login</string>
+    <string name="healthcare_system">Welcome in HealthCare System (Doctors)</string>
+    <string name="email">Email</string>
+    <string name="chat_list">Chat List</string>
+    <string name="phone">Phone</string>
+    <string name="Email" />
+    <string name="atif">atif</string>
+    <string name="this_is_actual_comment">this is actual comment</string>
+    <string name="_23_03_2020">23/03/2020</string>
+    <string name="share">share</string>
+    <string name="comment">comment</string>
+    <string name="like">like</string>
+    <string name="_1_2_likes">1.2 likes</string>
+    <string name="_1_2_comments">1.2 comments</string>
+    <string name="the_description_of_the_post">the description of the post</string>
+    <string name="title">title</string>
+    <string name="name">name</string>
+    <string name="_33_min">33 min</string>
+    <string name="person_email">Person Email</string>
+    <string name="his_message">his_message</string>
+    <string name="_02_03_2019_05_59pm">02/03/2019 05:59pm</string>
+    <string name="delivered">delivered</string>
+    <string name="welcome_to_healthcare_apps_doctor">welcome to healthcare apps (Doctor)</string>
+</resources>

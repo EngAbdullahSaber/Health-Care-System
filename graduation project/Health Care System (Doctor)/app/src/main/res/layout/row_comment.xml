@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    app:contentPadding="2dp"
+    app:cardBackgroundColor="@color/colorwhite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/avatarIv"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_defult"/>
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/atif"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/avatarIv"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTv"
+            android:layout_toRightOf="@id/avatarIv"
+            android:text="@string/this_is_actual_comment"
+            android:id="@+id/commentTv"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/commentTv"
+            android:layout_toRightOf="@id/avatarIv"
+            android:id="@+id/timeTv"
+            android:text="@string/_23_03_2020"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

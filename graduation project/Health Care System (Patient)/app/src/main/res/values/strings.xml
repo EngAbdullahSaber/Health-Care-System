@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Health Care System(Patient)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="login" />
+    <string name="person_name">string</string>
+    <string name="register">Register</string>
+    <string name="loginmain">Log In</string>
+    <string name="loginn">Log In</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="patient">Patient</string>
+    <string name="chat">Chat</string>
+</resources>
